@@ -10,7 +10,6 @@ while True:
             if (prime / i) - (int(prime / i)) == 0:
         
                 divs += 1
-        print(divs)
         if divs > 1:
             continue         
         else:
